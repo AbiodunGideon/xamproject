@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#gadget-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gadget-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.gadget-card h3 {
+    margin-top: 0;
+}
+
+.gadget-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.gadget-card .price {
+    font-size: 1.2em;
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: gold;
+    color: black;
+}
+
+button.delete {
+    background-color: crimson;
+    color: white;
+}
+
+button.add {
+    background-color: #007bff;
+    color: white;
+}
+
+#form-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
